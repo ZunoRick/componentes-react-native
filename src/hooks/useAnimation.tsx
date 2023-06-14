@@ -14,8 +14,6 @@ export const useAnimation = () => {
             useNativeDriver: true
             }
         ).start();
-
-        
     }
 
     const fadeOut = () => {
