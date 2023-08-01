@@ -15,7 +15,7 @@ export const HomeScreen = () => {
         renderItem={ ({ item }) => <FlatListMenuItem menuItem={ item } /> }
         keyExtractor={ (item) => item.name }
         ListHeaderComponent={ <HeaderTitle title='Opciones de Menú' /> }
-        ItemSeparatorComponent={ ItemSeparator }
+        ItemSeparatorComponent={ () => <ItemSeparator /> }
       />
     </View>
   )
